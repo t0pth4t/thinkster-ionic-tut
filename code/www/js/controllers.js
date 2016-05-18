@@ -54,7 +54,7 @@ angular.module('songhop.controllers', ['ionic', 'songhop.services'])
             },250);
 
         };
-
+        
         function shuffle(array) {
             var m = array.length, t, i;
             while (m) {
@@ -73,6 +73,10 @@ angular.module('songhop.controllers', ['ionic', 'songhop.services'])
      */
     .controller('FavoritesCtrl', function ($scope, User) {
         $scope.favorites = User.favorites;
+        
+        $scope.removeFromFavorites = function (indexOfSong) {
+            User.removeSongFromFavorites(indexOfSong);
+        }
     })
 
 

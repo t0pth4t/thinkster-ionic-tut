@@ -6,6 +6,9 @@ angular.module('songhop.services', [])
                 if(!song)return false;
 
                 this.favorites.unshift(song);
+            },
+            removeSongFromFavorites: function (indexOfSong) {
+                this.favorites.splice(indexOfSong, 1);
             }
         };
     });
