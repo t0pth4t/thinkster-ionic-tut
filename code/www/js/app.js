@@ -58,7 +58,7 @@ angular.module('songhop', ['ionic', 'songhop.controllers'])
           controller: 'FavoritesCtrl'
         }
       }
-    })
+    });
   // If none of the above states are matched, use this as the fallback:
   $urlRouterProvider.otherwise('/tab/discover');
 
