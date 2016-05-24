@@ -11,4 +11,14 @@ angular.module('songhop.services', [])
                 this.favorites.splice(indexOfSong, 1);
             }
         };
+    })
+    .factory('Recommendations', function ($http, SERVER) {
+        return {
+            getSongs: function () {
+                return $http({
+                    method: 'GET',
+                    url: SERVER.url + '/recommendations'
+                });
+            }
+        };
     });
