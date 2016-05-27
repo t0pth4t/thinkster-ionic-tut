@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18a51a90-acaa-4119-8d00-b04ac3e07349" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="18a51a90-acaa-4119-8d00-b04ac3e07349" name="Default" comment="call dat api">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/www/js/controllers.js" afterPath="$PROJECT_DIR$/code/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/www/js/services.js" afterPath="$PROJECT_DIR$/code/www/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/www/templates/discover.html" afterPath="$PROJECT_DIR$/code/www/templates/discover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/www/templates/tabs.html" afterPath="$PROJECT_DIR$/code/www/templates/tabs.html" />
     </list>
     <ignored path="ionic-course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +39,10 @@
       <file leaf-file-name="discover.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/www/templates/discover.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="510">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
-                <marker date="1464056402798" expanded="true" signature="157:258" ph="{...}" />
+                <marker date="1464312978590" expanded="true" signature="263:364" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="85">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,18 +61,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="574">
               <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="353">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/www/templates/tabs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -98,9 +108,10 @@
       <list>
         <option value="$PROJECT_DIR$/code/www/js/app.js" />
         <option value="$PROJECT_DIR$/code/www/templates/favorites.html" />
-        <option value="$PROJECT_DIR$/code/www/js/services.js" />
         <option value="$PROJECT_DIR$/code/www/templates/discover.html" />
+        <option value="$PROJECT_DIR$/code/www/js/services.js" />
         <option value="$PROJECT_DIR$/code/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/code/www/templates/tabs.html" />
       </list>
     </option>
   </component>
@@ -245,7 +256,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/ionic-course/code/www/js/controllers.js&#10;serv&#9;FILE&#9;file://C:/ionic-course/code/www/js/services.js&#10;con&#9;FILE&#9;file://C:/ionic-course/code/www/js/controllers.js&#10;favorites.h&#9;FILE&#9;file://C:/ionic-course/code/www/templates/favorites.html&#10;service.js&#9;FILE&#9;file://C:/ionic-course/code/www/js/services.js&#10;di&#9;FILE&#9;file://C:/ionic-course/code/www/templates/discover.html&#10;discover.&#9;FILE&#9;file://C:/ionic-course/code/www/templates/discover.html&#10;in&#9;FILE&#9;file://C:/ionic-course/code/www/index.html&#10;disco&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/ionic-course/code/www/templates/tabs.html&#10;tabs.&#9;FILE&#9;file://C:/ionic-course/code/www/templates/tabs.html&#10;serv&#9;FILE&#9;file://C:/ionic-course/code/www/js/services.js&#10;con&#9;FILE&#9;file://C:/ionic-course/code/www/js/controllers.js&#10;favorites.h&#9;FILE&#9;file://C:/ionic-course/code/www/templates/favorites.html&#10;service.js&#9;FILE&#9;file://C:/ionic-course/code/www/js/services.js&#10;di&#9;FILE&#9;file://C:/ionic-course/code/www/templates/discover.html&#10;discover.&#9;FILE&#9;file://C:/ionic-course/code/www/templates/discover.html&#10;in&#9;FILE&#9;file://C:/ionic-course/code/www/index.html&#10;disco&#9;null&#9;null" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\ionic-course\code\node_modules\mocha" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -319,12 +330,20 @@
       <updated>1463536188358</updated>
       <workItem from="1463536189872" duration="4396000" />
       <workItem from="1464052825441" duration="599000" />
-      <workItem from="1464053946974" duration="2727000" />
+      <workItem from="1464053946974" duration="5803000" />
     </task>
+    <task id="LOCAL-00001" summary="call dat api">
+      <created>1464056847455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464056847455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7722000" />
+    <option name="totallyTimeSpent" value="10798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -359,6 +378,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="call dat api" />
+    <option name="LAST_COMMIT_MESSAGE" value="call dat api" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -377,7 +400,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <marker date="1464056402798" expanded="true" signature="157:258" ph="{...}" />
+            <marker date="1464312978590" expanded="true" signature="263:364" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -427,7 +450,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <marker date="1464056402798" expanded="true" signature="157:258" ph="{...}" />
+            <marker date="1464312978590" expanded="true" signature="263:364" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -482,34 +505,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="574">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/www/templates/discover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding>
-            <marker date="1464056402798" expanded="true" signature="157:258" ph="{...}" />
+            <marker date="1464312978590" expanded="true" signature="263:364" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="353">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>

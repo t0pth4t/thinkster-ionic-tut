@@ -6,42 +6,31 @@ angular.module('songhop.controllers', ['ionic', 'songhop.services'])
  */
     .controller('DiscoverCtrl', function ($scope, $timeout, User, Recommendations) {
         $scope.songs = [];
-        function getMoreSongs(firstTime){
-            Recommendations.getSongs().then(function (result) {
-                $scope.songs = $scope.songs.concat(result.data);
-                $scope.choices = angular.copy($scope.songs);
-
-                if(firstTime)
-                    $scope.currentSong = angular.copy($scope.choices.shift());
+        Recommendations.init()
+            .then(function(){
+                $scope.currentSong = Recommendations.queue[0];
+                Recommendations.playCurrentSong();
             });
-
-        }
-
-        getMoreSongs(true);
+        
+        $scope.nextAlbumImage = function () {
+            return $scope.songs.length > 1 ?  $scope.songs[1].image_large : '';
+        };
 
         $scope.sendFeedback = function (favorite) {
-            $scope.currentSong.rated = favorite;
-            $scope.currentSong.hide = true;
-            if(favorite)
+            if (favorite) {
                 User.addSongToFavorites($scope.currentSong);
-            $timeout(function () {
-                $scope.songs = shuffle($scope.songs);
-                $scope.currentSong = angular.copy($scope.choices.shift());
-                if($scope.choices.length === 0)
-                    getMoreSongs();
-            },250);
-
-        };
-        
-        function shuffle(array) {
-            var m = array.length, t, i;
-            while (m) {
-                i = Math.floor(Math.random() * m--);
-                t = array[m];
-                array[m] = array[i];
-                array[i] = t;
             }
-            return array;
+
+            $scope.currentSong.hide = true;
+            Recommendations.nextSong();
+
+            $timeout(function() {
+
+                $scope.currentSong = Recommendations.queue[0];
+
+            }, 250);
+
+            Recommendations.playCurrentSong();
         }
     })
 
@@ -61,6 +50,11 @@ angular.module('songhop.controllers', ['ionic', 'songhop.services'])
     /*
      Controller for our tab bar
      */
-    .controller('TabsCtrl', function ($scope) {
-
+    .controller('TabsCtrl', function ($scope, Recommendations) {
+        $scope.enteringFavorites = function () {
+            Recommendations.haltAudio();
+        };
+        $scope.leavingFavorites = function () {
+          Recommendations.init();
+        }
     });
